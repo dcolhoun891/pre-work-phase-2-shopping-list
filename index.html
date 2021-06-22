@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+<h3>Shopping List Project</h3>
+<h3>by Duncan Colhoun  dcolhoun@cnm.edu</h3>
+
+<div class = "item-form-container"> <! form container div-->
+    <form id="item-form">
+
+        <div> <! item field div-->
+            <label for="item-name">Item</label>
+            <input type="text" id="item-name">
+        </div>  <! item field div-->
+
+        <div>    <! amount field div-->
+            <label for="item-amount">Amount</label>
+            <input type="number" id="item-amount">
+        </div>  <! amount field div-->
+        <button type="submit">Add Item</button>
+
+    </form>
+</div> <! form container div-->
+
+<div class="shopping-list-container"> <! unordered list div-->
+
+    <ul id="shopping-list">
+    </ul>
+
+</div>  <! unordered list div-->
+
+</body>
+</html>
